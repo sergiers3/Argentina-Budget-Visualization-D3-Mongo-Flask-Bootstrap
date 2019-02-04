@@ -1,6 +1,6 @@
 # Argentina Budget Visualization using MongoDB and D3.js/DC.js
 
-![](/banner.gif)
+![](https://github.com/sergiers3/Argentina-Budget-Visualization-D3-Mongo-Flask-Bootstrap/blob/master/gif.gif?raw=true)
 
 This project contains a visualization of Argentina's budget expenditure from 2015 to 2019. We describe the ”Argentinian National Budget 2015-2019” application, which is designed so that through it any citizen can visualize the structure of the national budget, paying special attention to the functions of spending (social services, defense, debt, etc.). The principles of visualization presented here apply to the visualization of public accounts in any country in the world that uses a multidimensional financial model.
 
