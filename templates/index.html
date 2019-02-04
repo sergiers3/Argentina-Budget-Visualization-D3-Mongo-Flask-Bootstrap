@@ -12,7 +12,6 @@
 		<meta name="keywords" content="" />
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -20,22 +19,12 @@
 		<script src="./static/js/skel-panels.min.js"></script>
 		<script src="./static/js/init.js"></script>
 		<script src="./static/js/bootstrap.min.js"></script>
-
-
-
-
-
-
 		<link rel="stylesheet" href="./static/css/dc.css" />
 		<link rel="stylesheet" href="./static/css/style.css" />
 		<link rel="stylesheet" href="./static/css/stylenew.css" />
 		<link rel="stylesheet" href="./static/css/style-desktop.css" />
-
-		<!-- Latest compiled and minified CSS -->
-
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-
 		<style>
 		.dc-select-menu {
 		  background: #75AADB;
@@ -45,27 +34,19 @@
 	</head>
 	<body>
 		<div id="wrapper">
-			
 			<!-- Header -->
 			<div id="header">
 				<div class="container"> 
-					
 					<!-- Logo -->
 					<div id="logo">
 						<h1><a style="font-size: 25px !important; margin-top: 7px; font-weight: bold;" href="#">Argentinian National Budget 2015 - 2019</a></h1>
 					</div>
-					
 					<!-- Nav -->
-
 				</div>
 			</div>
 			<!-- /Header -->
-			
 			<div id="page" style="margin-top:-61px;margin-left:30px;">
 				<div class="container">
-					
-
-
 					<div class="row">
 						<div class="3u chart-wrapper" id="menuselectyear" style="background-color: #75AADB; height: 60px;">
 							<div class="chart-title">  <strong> Year Selector </strong> </div>	
@@ -78,22 +59,15 @@
 								<span> &nbsp</span>
 							</div>
 						</div>
-
 						<div class="4u chart-wrapper" style="background-color: #75AADB" id="total-projects">
 							<div class="chart-title">  <strong> Total Proposed Budget </strong> </div>		
 						</div>
-						
-
 						<div class="2u">
 							<div> 
 								<span> &nbsp</span>
 							</div>
 						</div>
-
-								
 					</div>
-
-
 					<div class="row">
 						<div class="12u dc-data-count dc-chart" style="text-align: center; margin-top: 25px; margin-bottom: 10px;"  id="row-selection">
 							<span class="filter-count">_</span> selected out of <span class="total-count">_</span> records |
@@ -103,70 +77,36 @@
 							</span>
 						</div>
 					</div>
-
-
-					
-
-
-
 					<div class="row">
 						<div class="12u chart-wrapper"  id="bubble-chart">
 							<div class="chart-title">  <strong>How the public Argentinian budget is spent</strong> Expenses by purpose and function</div>
 						</div>
 					</div>
-
-					
-
 					<div class="row">
 						<div class="12u chart-wrapper"  id="date-chart">
 							<div class="chart-title bold"> <strong>Expenses over time</strong></div>
 						</div>
-						
 					</div>
-
-
-
 					<div class="row">
-						<div class="6u chart-wrapper" id="poverty-chart">
+						<div class="6u chart-wrapper" id="source-bar-chart">
 							<div class="chart-title">  <strong>Where do the resources come from?</strong> Source of financing</div>							
 						</div>
 						<div class="6u chart-wrapper" id="funding-chart">
 							<div class="chart-title">  <strong>Who spend the money?</strong> Administrative branch</div>				
 						</div>						
 					</div>
-
-					
-
-
-					<div class="row">
-						<!--div class="6u chart-wrapper" >
-							<table class='table table-hover' id='dc-table-state'>
-						        <thead>
-						            <th>State</th>
-						            <th>%</th>
-						        </thead>
-						      </table>
-						</div-->
+					<div class="row">					
 						<!-- Map -->  
-						<div class="12u chart-wrapper" id="us-chart">
+						<div class="12u chart-wrapper" id="ar-states">
 							<div class="chart-title"><strong>Where is the money spent?</strong> - Exepenses by provinces</div>
 	        			</div>
 				      	<!-- Map -->
 				   	</div>
-
-
-				   	<!--div class="row">
-						<div class="12u chart-wrapper"  id="state-donations">
-								<div class="chart-title">  <strong> Budget per province </strong> </div>
-						</div>
-					</div-->
-
 				   	<div class="row">
 						<div class="12u chart-wrapper" id="institution-chart">
 							<div class="chart-title">  <strong>Who spend the money?</strong> Budget by institution</div>							
 						</div>
 					</div>
-
 					<div class="row">
 						<div class="12u chart-wrapper" >
 							<table class='table table-hover' id='dc-table-graph'>
@@ -178,67 +118,55 @@
 						      </table>
 						</div>
 					</div>
-
-
-					
-					
-
-
-
-
 				</div>	
 			</div>
-
-			
 		</div>
 
-<script src='./static/js/crossfilter.js' type='text/javascript'></script>
-<script src='./static/js/d3.js' type='text/javascript'></script>
-<script src='./static/js/dc.js' type='text/javascript'></script>
-<script src='./static/js/queue.js' type='text/javascript'></script>
-<script src='./static/js/Dashboard.js' type='text/javascript'></script>
 
-<script>
-function colorReplace(findHexColor, replaceWith) {
-  // Convert rgb color strings to hex
-  function rgb2hex(rgb) {
-    if (/^#[0-9A-F]{6}$/i.test(rgb)) return rgb;
-    rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
-    function hex(x) {
-      return ("0" + parseInt(x).toString(16)).slice(-2);
-    }
-    return "#" + hex(rgb[1]) + hex(rgb[2]) + hex(rgb[3]);
-  }
+		<script src='./static/js/crossfilter.js' type='text/javascript'></script>
+		<script src='./static/js/d3.js' type='text/javascript'></script>
+		<script src='./static/js/dc.js' type='text/javascript'></script>
+		<script src='./static/js/queue.js' type='text/javascript'></script>
+		<script src='./static/js/Dashboard.js' type='text/javascript'></script>
 
-  // Select and run a map function on every tag
-  $('*').map(function(i, el) {
-    // Get the computed styles of each tag
-    var styles = window.getComputedStyle(el);
+		<script>
+		// Sorry for this ñapa, it was neccesary to remove that ugly green color
+		function colorReplace(findHexColor, replaceWith) {
+			// Convert rgb color strings to hex
+			function rgb2hex(rgb) {
+			if (/^#[0-9A-F]{6}$/i.test(rgb)) return rgb;
+			rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+			function hex(x) {
+			  return ("0" + parseInt(x).toString(16)).slice(-2);
+			}
+			return "#" + hex(rgb[1]) + hex(rgb[2]) + hex(rgb[3]);
+			}
 
-    // Go through each computed style and search for "color"
-    Object.keys(styles).reduce(function(acc, k) {
-      var name = styles[k];
-      var value = styles.getPropertyValue(name);
-      if (value !== null && name.indexOf("color") >= 0) {
-        // Convert the rgb color to hex and compare with the target color
-        if (value.indexOf("rgb(") >= 0 && rgb2hex(value) === findHexColor) {
-          // Replace the color on this found color attribute
-          $(el).css(name, replaceWith);
-        }
-      }
-    });
-  });
-}
+			// Select and run a map function on every tag
+			$('*').map(function(i, el) {
+			// Get the computed styles of each tag
+			var styles = window.getComputedStyle(el);
 
-// Call like this for each color attribute you want to replace
+			// Go through each computed style and search for "color"
+			Object.keys(styles).reduce(function(acc, k) {
+			  var name = styles[k];
+			  var value = styles.getPropertyValue(name);
+			  if (value !== null && name.indexOf("color") >= 0) {
+			    // Convert the rgb color to hex and compare with the target color
+			    if (value.indexOf("rgb(") >= 0 && rgb2hex(value) === findHexColor) {
+			      // Replace the color on this found color attribute
+			      $(el).css(name, replaceWith);
+			    }
+			  }
+			});
+			});
+		}
 
+		$(document).ready(function() {
 
+		colorReplace("#33cc99", "#75AADB");
 
-$(document).ready(function() {
-
-colorReplace("#33cc99", "#75AADB");
-
-});
+		});
 </script>
 
 	</body>
